@@ -1,22 +1,18 @@
 # Flow: An iOS Productivity App
 
 ## Overview
-Flow is an iOS app designed to help users take control of their productivity and unlock their full potential. In a world overflowing with opportunities, information, and tools, many people work inefficiently or simply struggle to get started. 
+Flow is an iOS app designed to help users take control of their productivity and unlock their full potential. 
+Despite having more information and tools than ever, many people feel overwhelmed, distracted, or unsure where to begin when working towards their goals. 
+Flow aims to help you work smarter by delivering proven productivity methods through an intuitive experience.
 
-> This gap between intention and follow-through is often where potential gets lost.
+## Current Features
+- **Pomodoro Timer**
 
-Flow aims to close that gap to work smarter. It brings proven productivity methods — like the Pomodoro Technique and Deep Work — into a lightweight, intuitive app designed for real life.
-
-Work smarter. Work efficiently. Build consistency. 
-
-## Planned Features
-- ✅ **Pomodoro Timer** – Focused work sessions
-- ⏳ **Habit Tracker** – Make it easier to build habit and visualize your progress
-- ⏳ **Mood Check-In** – Track emotional state to adjust work strategy
-- ⏳ **Personalized Suggestions** – via GPT API
-- ⏳ **More To Come**
+## Coming Soon
+- **Habit Tracker**
+- **Mood Check-In**
+- **Personalized Suggestions** – via GPT API
 
 ## Tech Stack
 - **Swift**
 - **OpenAI GPT API**
-- **[More coming soon]**
