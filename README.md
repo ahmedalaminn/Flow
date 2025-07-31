@@ -9,8 +9,8 @@ Flow aims to help you work smarter by delivering proven productivity methods thr
 - **Pomodoro Timer**
 
 ## Coming Soon
-- **Habit Tracker**
-- **Mood Check-In**
+- **Habits**
+- **To Do**
 - **Personalized Suggestions** – via GPT API
 
 ## Tech Stack
