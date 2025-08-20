@@ -9,8 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        Text("Flow")
+        Text("Work smarter.")
         NavigationStack {
-            NavButtonView(title: "Pomodoro Timer", color: .green, destination: PomodoroView())
+            NavButtonView(title: "Pomodoro Timer", color: .green, destination: PomodoroView());
+            NavButtonView(title: "Habits", color: .yellow, destination: HabitView());
+            NavButtonView(title: "To Do", color: .blue, destination: ToDoView());
         }
     }
 }
@@ -18,3 +22,6 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+
+
+// ADD A FEEDBACK FORM AFTER IMPLEMENTING AUTHENTICATION

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		19674F462E3763D8005E5000 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 19674F452E3763D8005E5000 /* FirebaseAnalytics */; };
 		19674F662E376B1F005E5000 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19674F652E376B1F005E5000 /* GoogleService-Info.plist */; };
+		199AF9422E558B1C002B37B9 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 199AF9412E558B1C002B37B9 /* FirebaseAuth */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19674F462E3763D8005E5000 /* FirebaseAnalytics in Frameworks */,
+				199AF9422E558B1C002B37B9 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +44,7 @@
 				19674F332E375CC7005E5000 /* Flow */,
 				19674F322E375CC7005E5000 /* Products */,
 				19674F652E376B1F005E5000 /* GoogleService-Info.plist */,
+				199AF9402E558B1C002B37B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +54,13 @@
 				19674F312E375CC7005E5000 /* Flow.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		199AF9402E558B1C002B37B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +84,7 @@
 			name = Flow;
 			packageProductDependencies = (
 				19674F452E3763D8005E5000 /* FirebaseAnalytics */,
+				199AF9412E558B1C002B37B9 /* FirebaseAuth */,
 			);
 			productName = Flow;
 			productReference = 19674F312E375CC7005E5000 /* Flow.app */;
@@ -354,6 +365,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 19674F442E3763D8005E5000 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAnalytics;
+		};
+		199AF9412E558B1C002B37B9 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19674F442E3763D8005E5000 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

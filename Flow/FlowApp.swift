@@ -7,12 +7,14 @@
 
 import SwiftUI
 import FirebaseCore
+import FirebaseAuth
 
 // Firebase initialization boilerplate
 class AppDelegate: NSObject, UIApplicationDelegate {
   func application(_ application: UIApplication,
                    didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
     FirebaseApp.configure()
+    Auth.auth().useEmulator(withHost: "localhost", port: 9099)
     return true
   }
 }
@@ -24,7 +26,9 @@ struct FlowApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AuthenticatedView {
+                ContentView()
+            }
         }
     }
 }

@@ -79,3 +79,7 @@ Config.xcconfig
 
 # Firebase config file
 GoogleService-Info.plist
+
+.DS_Store
+
+*.xcuserdatad
