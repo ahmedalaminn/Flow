@@ -83,3 +83,6 @@ GoogleService-Info.plist
 .DS_Store
 
 *.xcuserdatad
+
+# Firebase emulator data
+data/

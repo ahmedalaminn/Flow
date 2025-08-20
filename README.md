@@ -6,15 +6,15 @@ Despite having more information and tools than ever, many people feel overwhelme
 Flow aims to help you work smarter by delivering proven productivity methods through an intuitive experience.
 
 ## Current Features
-- Pomodoro Timer
+* Pomodoro Timer
 
 ## Coming Soon
-- Habits
-- To Do
-- Personalized Suggestions
-<!-- A short quick form for app feedback including a rating and description -->
+* Habits
+* To Do
+* Personalized Suggestions
+* A short form for app feedback
 
 ## Tech Stack
-- Swift
-- Firebase
-<!-- A LLM API (coming soon!)-->
+* Swift
+* Firebase
+* An LLM API
